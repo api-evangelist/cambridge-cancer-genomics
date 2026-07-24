@@ -1,8 +1,25 @@
 aid: cambridge-cancer-genomics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cambridge-cancer-genomics.png
 name: Cambridge Cancer Genomics
-description: 'Cambridge Cancer Genomics is a company surfaced as a portfolio company of amplify-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: digital-biology. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Cambridge Cancer Genomics (CCG.ai) was a Cambridge, UK precision-oncology company founded
+  in 2015 out of the University of Cambridge, building OncOS, an AI/machine-learning platform that analyzed
+  genomic data from liquid biopsies (circulating tumor DNA) to help oncologists track tumor evolution and
+  personalize cancer treatment. The company was a Y Combinator alumnus in the digital-biology sector and
+  was acquired by Dante Labs in June 2021, after which OncOS was folded into Dante Labs'' genomics platform.
+  As of this enrichment pass the CCG.ai domain redirects to a domain-sale marketplace and the company
+  operates no independent public developer or API surface; its historical first-party code lives only in
+  the ccgenomics GitHub organization (research repositories, not published API SDKs).'
 url: https://raw.githubusercontent.com/api-evangelist/cambridge-cancer-genomics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +27,21 @@ x-backed-by:
 - amplify-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: dante-labs
+x-acquired-date: '2021-06'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Digital Biology
+- Precision Oncology
+- Genomics
+- Machine Learning
+- Healthcare
+- Cancer Research
+- Bioinformatics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,10 @@ maintainers:
 common:
 - type: Website
   url: https://us.dantelabs.com
+- type: GitHubOrganization
+  url: https://github.com/ccgenomics
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
