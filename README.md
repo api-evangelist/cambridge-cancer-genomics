@@ -64,6 +64,35 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Cambridge Cancer Genomics is a company surfaced as a portfolio company of amplify-partners and added to the API Evangelist network as a stub for enrichment. Sector: digital-biology. This profile is a lead awaiting the enrichment pipeline.
+> **Acquired or rebranded.** This company was acquired, merged or renamed. Its API, if it still exists, is offered under another name. This profile is kept as a historical record and is not maintained or rated.
 
-Backed by: amplify-partners — https://us.dantelabs.com
+Cambridge Cancer Genomics (CCG.ai) was a Cambridge, UK precision-oncology company founded in 2015 out of the University of Cambridge, building OncOS, an AI/machine-learning platform that analyzed genomic data from liquid biopsies (circulating tumor DNA) to help oncologists track tumor evolution and personalize cancer treatment. The company was a Y Combinator alumnus in the digital-biology sector and was acquired by Dante Labs in June 2021, after which OncOS was folded into Dante Labs' genomics platform. As of this enrichment pass the CCG.ai domain redirects to a domain-sale marketplace and the company operates no independent public developer or API surface; its historical first-party code lives only in the ccgenomics GitHub organization (research repositories, not published API SDKs).
+
+**Areas:** Company · Digital Biology · Precision Oncology · Genomics · Machine Learning · Healthcare · Cancer Research · Bioinformatics
+
+## Cambridge Cancer Genomics on APIs.io (historical record)
+
+Everything profiled for Cambridge Cancer Genomics is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/cambridge-cancer-genomics/](https://apis.io/providers/cambridge-cancer-genomics/)** — or go straight to one of the APIs or properties below.
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://us.dantelabs.com)
+- [GitHub](https://github.com/ccgenomics)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as acquired or rebranded, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Cambridge Cancer Genomics: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/cambridge-cancer-genomics/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
